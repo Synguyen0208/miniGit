@@ -10,5 +10,15 @@ package git;
  * @author admin
  */
 public class Bird extends Animal implements Sound {
+    private String type;
+    
+    public Bird (){
+        
+    }
+    
+    public Bird(String name, float height, float weight, String type){
+        super(name,height,weight);
+        this.type = type;
+    }
     
 }

@@ -11,5 +11,5 @@ package git;
  */
 public interface Sound {
 
-  
+  public abstract void say();
 }

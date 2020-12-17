@@ -10,5 +10,6 @@ package git;
  * @author admin
  */
 public class Dog extends Animal implements Sound{
+
     
 }
