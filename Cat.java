@@ -5,10 +5,20 @@
  */
 package git;
 
-/**
- *
- * @author admin
- */
 public class Cat extends Animal implements Sound {
+    String name ;
+    String color;
+    public Cat(){}
+    public Cat(String name,String color){
+        this.name = name;
+        this.color = color;
+        
+        
+    }
+    @Override
+    public String say(){
+        String soundCat = "MEOOOOOO MEOOOO";
+        return soundCat;
+    }
     
 }
